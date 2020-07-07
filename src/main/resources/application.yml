@@ -1,0 +1,23 @@
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          saml: DEBUG
+      opensaml: DEBUG
+    com:
+      spring:
+        boot:
+          security:
+            saml: DEBUG
+
+service.provider.entity.id: # put your entity id here e.g com:uday:spring:boot:sp
+
+idp.metedata.url: # put your IDP metadata URL here
+
+# you can update credentials if you want, I recommend you to keep as it is for demo purpose
+saml:
+  keystore.password: nalle123
+  private.key:
+    alias: apollo
+    password: nalle123

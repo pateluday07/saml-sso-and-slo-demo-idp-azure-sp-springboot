@@ -24,16 +24,15 @@ will be the **Azure**.
 Before you start the application you must fulfill the 
 following prerequisites.
 * Go to the **Azure portal** and create an account if you 
-don't have one, here is the link [Azure Portal] 
-(https://azure.microsoft.com/en-in/free/search/?cdn=disable)
+don't have one, here is the link [Azure Portal](https://azure.microsoft.com/en-in/free/search/?cdn=disable)
 
 * Create a new **tenant** in **Azure Active Directory**, 
 if you have an existing one you can use it, here is the 
-link that will help you to create a new **tenant** [Create a tenant] (https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
+link that will help you to create a new **tenant** [Create a tenant](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
 
 * Create a non-gallery enterprise application, here is 
 the link that will help you to create one 
-[Create an application] (https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-non-gallery-app)
+[Create an application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-non-gallery-app)
 
 * If you are able to successfully create an enterprise 
 application you will get the screen like this.
@@ -73,7 +72,7 @@ this certificate too in our service.
 ![SAML Based Sign On Section](src/main/resources/static/screenshots/saml-signing-certificate-section.png)
 
 * Now add users or group to this application, here is the link it will 
-guide you for the same [Add Users or Group] (https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/assign-user-or-group-access-portal)
+guide you for the same [Add Users or Group](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/assign-user-or-group-access-portal)
 And we are done with the **Azure IDP** configuration.
 
 ##### Spring Boot Service Provider (SP) Configuration
